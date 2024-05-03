@@ -1,0 +1,25 @@
+{
+  "name": "test-umzug",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "migrateDb": "ts-node migrate.ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@sequelize/core": "^7.0.0-alpha.40",
+    "@sequelize/postgres": "^7.0.0-alpha.40",
+    "umzug": "^3.8.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.12.8",
+    "@typescript-eslint/eslint-plugin": "^7.8.0",
+    "@typescript-eslint/parser": "^7.8.0",
+    "eslint": "^8.57.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.5"
+  }
+}
